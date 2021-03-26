@@ -1,0 +1,403 @@
+
+*{
+    box-sizing: border-box;
+        padding: 10px;
+    }
+  
+    .container { display: flex;
+        min-height: 100vh;
+        flex-direction: row; }
+body {
+    
+   
+    background-color: white;
+    background-image: url(images/facelina_painting.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+
+}
+
+.text_about_me img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text_sea_slugs{
+    position: absolute;
+    top:300px;
+    /* background-color: lightgrey; */
+    /* border: 15px solid green; */
+    box-sizing: border-box;
+    padding: 2px 200px 20px 200px;
+}
+  /* body {
+    background-color: rgba(10, 10, 255, 0.301)
+    } */
+
+  h1 {
+        color:black;
+        text-decoration: none;
+        font-family:fantasy;
+        text-align: left;
+        font-size: 60px;
+  }
+
+  p {
+    /* color:rgba(red, green, blue, alpha); */
+    /* background:hsl(0, 0%, 100%); */
+    font-size: 16px;
+    color:black;
+    text-decoration: none;
+    font-family:fantasy;
+
+    /* text-shadow: 1px 1px 1pxpx black; */
+    /* mix-blend-mode:difference; */
+}
+
+h2 {
+    color:black;
+    text-decoration: none;
+    font-family:fantasy;
+    text-align: left;
+}
+
+a {
+    color:rgb(252, 5, 5);
+    text-decoration: none;
+    font-family:fantasy;
+    text-align: left;
+}
+.right_header {
+    position: fixed;
+    right:0;
+    top: 0;
+    width: 100;
+    /* background-color: rgba(247, 247, 247, 0.164); */
+    opacity:0.8;
+    color:black;
+    text-align: right;
+}
+.left_header {
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 22%;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 18pt;
+    color:darkslategrey;
+
+    /* background-color: rgba(253, 253, 253, 0.171); */
+    opacity:0.8;
+
+    
+}
+
+ .left_header img{
+    border-radius: 50%;
+    width: 60px;
+    float: left;
+}
+
+.right_header a{
+    text-decoration: none;
+    font-family:fantasy;
+    color: rgb(2, 2, 2);
+    text-align: left;
+}
+
+.footer {
+    position: fixed;
+    left: 100;
+    bottom: 0;
+    width: 50%;
+    background-color: hsl(240, 100%, 10%,10%);
+    opacity:10;
+    color: white;
+    text-align: left;
+
+}
+
+ 
+.center {
+    text-align: center;
+}
+
+.large {
+    font-size: 50px; 
+}
+
+.speech{
+
+    margin-left: 3.0em;
+    margin-right: 5.00em;
+}
+.text_about_me{
+    position: absolute;
+    top:30px;
+    /* background-color: lightgrey; */
+    /* border: 15px solid green; */
+    box-sizing: border-box;
+    padding: 2px 200px 20px 200px;
+}
+
+.text_index{
+    position: absolute;
+    top:200px;
+    left:200px;
+    /* background-color: lightgrey; */
+    /* border: 15px solid green; */
+    box-sizing: border-box;
+    padding: 2px 200px 20px 200px;
+
+}
+
+.fixed_heading{
+    box-sizing: border-box;
+    border: 1px whitesmoke;
+    position:fixed;
+}
+
+.image_main img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my_pic img{
+    position: absolute;
+    top: 200px;
+    width: 28%;
+}  
+.button_1 {
+    background-color: darkslategray;
+    border:ridge;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    position:absolute;
+    left: 0;
+    /* right: 0; */
+    top: 300px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button_2 {
+    background-color: darkslategray;
+    border:ridge;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    position:absolute;
+    left: 0;
+    /* right: 0; */
+    top: 400px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button_3 {
+    background-color: darkslategray;
+    border:ridge;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    position:absolute;
+    left: 0;
+    /* right: 0; */
+    top: 500px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button_4  {
+    background-color: darkslategray;
+    border:ridge;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    position:absolute;
+    left: 0;
+    /* right: 0; */
+    top: 600px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button_index_1 {
+    background-color: darkslategray;
+    border:ridge;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    position:absolute;
+    right: 20px;
+    /* right: 0; */
+    top: 200px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button_index_2 {
+    background-color: darkslategray;
+    border:ridge;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    position:absolute;
+    right: 20px;
+    /* right: 0; */
+    top: 300px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .image_facelina_coronata_1 img{
+    position:absolute;
+    width: 300px;
+    left: 300px;
+    /* right: 0; */
+    top: 200px;
+  }
+
+  .image_facelina_coronata_2 img{
+    position:absolute;
+    width: 300px;  
+    left: 700px;
+    /* right: 0; */
+    top: 200px;
+  }
+
+    .text_facelina{
+    position:absolute;
+    left: 700px;
+    top:370px;
+    box-sizing:content-box ;
+    /* background-color: lightgrey;
+    border: 5px solid green; */
+    padding: 1px 50px 1px 2px;
+    }
+   
+.image_spanish_dancer_1 img{
+    position:absolute;
+    width: 300px; 
+    height: 200px;
+    left: 250px;
+    top: 200px;
+    }
+
+.image_spanish_dancer_2 img{
+    position:absolute;
+    width: 300px; 
+    height: 200px;
+    left: 600px;
+    top: 200px;
+}
+.image_spanish_dancer_3 img{
+    position:absolute;
+    width: 300px; 
+    height: 200px;
+    left: 950px;
+    top: 200px;
+}
+.video_spanish_dancer{
+        position:absolute;
+        /* width: 300px; 
+        height: 200px; */
+        left: 950px;
+        top: 400px;
+  }
+  .text_spanish_dancer{
+    position:absolute;
+    left: 250px;
+    top:400px;
+    box-sizing:content-box ;
+    /* background-color: lightgrey;
+    border: 5px solid green; */
+    margin: 0px 40px 0px 0px ;
+    padding: 1px 50px 1px 2px;
+  }
+  .image_sea_bunny_1 img{
+    position:absolute;
+    width: 250px;
+    left: 200px;
+    top:190px;
+  }
+    .image_sea_bunny_2 img{
+        position:absolute;
+        width: 250px;
+        left: 450px;
+        top:190px;
+  }
+  .image_sea_bunny_3 img{
+    position:absolute;
+    width: 250px;
+    left: 700px;
+    top:190px;
+ 
+  }
+  .image_sea_bunny_4 img{
+    position:absolute;
+    width: 250px;
+    left: 950px;
+    top:190px;
+  }
+
+  .text_sea_bunny{
+    position:absolute;
+    left: 450px;
+    top:370px;
+    box-sizing:content-box ;
+    /* background-color: lightgrey;
+    border: 5px solid green; */
+    margin: 0px 40px 0px 0px ;
+    padding: 0px 30px 1px 2px;
+  }
+
+  .contact_text{
+    position:absolute;
+    text-decoration: none;
+    font-family:fantasy;
+    color: rgb(2, 2, 2);
+    top: 110px;
+    text-align: left;
+    font-size: 30px; 
+  }
+    .contact_link{
+    position:absolute;
+    top: 160px;
+    }
+
+  .text_links{
+    position:absolute;
+    left: 450px;
+    top:200px;
+    box-sizing:border-box;
+    text-align: left;
+    /* background-color: lightgrey;
+    border: 5px solid green; */
+    margin: 0px 40px 0px 0px ;
+    padding: 0px 30px 1px 2px;
+
+  }
