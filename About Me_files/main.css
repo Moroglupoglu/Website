@@ -1,0 +1,130 @@
+
+*{
+    box-sizing: border-box;
+        padding: 10px;
+    }
+  
+    .container { display: flex;
+        min-height: 100vh;
+        flex-direction: row; }
+body {
+    
+   
+    background-color: white;
+    background-image: url(images/facelina_painting.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+
+}
+
+.text_box img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  /* body {
+    background-color: rgba(10, 10, 255, 0.301)
+    } */
+
+  h1 {
+      color:black;
+      font-size: 60pxpx;
+  }
+
+  p {
+    /* color:rgba(red, green, blue, alpha); */
+    /* background:hsl(0, 0%, 100%); */
+    font-size: 30px;
+
+    /* text-shadow: 1px 1px 1pxpx black; */
+    /* mix-blend-mode:difference; */
+}
+
+.right_header {
+    position: fixed;
+    right:0;
+    top: 0;
+    width: 100;
+    background-color: rgba(247, 247, 247, 0.164);
+    opacity:0.8;
+    color: rgb(0, 0, 0);
+    text-align: right;
+}
+.left_header {
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 22%;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 18pt;
+    background-color: rgba(253, 253, 253, 0.171);
+    opacity:0.8;
+
+    
+}
+
+ .left_header img{
+    border-radius: 50%;
+    width: 50px;
+    float: left;
+}
+
+.right_header a{
+    text-decoration: none;
+    font-family:fantasy;
+    color: rgb(2, 2, 2);
+    text-align: left;
+}
+
+.footer {
+    position: fixed;
+    left: 100;
+    bottom: 0;
+    width: 50%;
+    background-color: hsl(240, 100%, 10%,10%);
+    opacity:10;
+    color: white;
+    text-align: left;
+
+}
+
+
+
+ 
+.center {
+    text-align: center;
+}
+
+.large {
+    font-size: 50px; 
+}
+
+.speech{
+
+    margin-left: 3.0em;
+    margin-right: 5.00em;
+}
+.text_box{
+    /* position: fixed; */
+    /* background-color: lightgrey; */
+    /* border: 15px solid green; */
+    box-sizing: border-box;
+    padding: 2px 200px 20px 200px;
+}
+
+.fixed_heading{
+    box-sizing: border-box;
+    border: 1px whitesmoke;
+    position:fixed;
+}
+
+.image_main img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
